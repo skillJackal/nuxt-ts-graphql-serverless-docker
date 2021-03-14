@@ -1,0 +1,28 @@
+service: nuxt-ts-graphql-serverless-docker
+
+plugins:
+  - serverless-offline
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+
+functions:
+  api:
+    handler: api/bridge.api
+    events:
+      - http:
+          path: /api
+          method: any
+      - http: 
+          path: /api/{proxy+}
+          method: any
+  nuxt:
+    handler: nuxtHandler.nuxt
+    events:
+      - http:
+          path: /
+          method: any
+      - http:
+          path: /{proxy+}
+          method: any
