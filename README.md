@@ -12,6 +12,9 @@ $ yarn install
 ```
 
 ## Starter Scripts
+
+**fe** for front-end, **be** for back-end
+
 - **fe:dev**: launches Nuxt.js front-end in dev-mode (with hot-reloading)
 - **fe:build**: launches Nuxt.js build-process
 - **fe:generate**: launches Nuxt.js generate-process
