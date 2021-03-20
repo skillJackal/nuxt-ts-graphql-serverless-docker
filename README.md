@@ -25,7 +25,7 @@ $ yarn install
 - **start:docker**: launches front- and back-end (use only within docker-container)
 
 ## Tutorial
-Tutorial [here](https://skilljackal.com/how-to-build-a-website-with-nuxt-js-and-a-graphql-api/) at [skilljackal.com](https://skilljackal.com)
+Tutorial [here](https://skilljackal.com/series-nuxt-ts-graphql-introduction/) at [skilljackal.com](https://skilljackal.com)
 
 ## License
 MIT
